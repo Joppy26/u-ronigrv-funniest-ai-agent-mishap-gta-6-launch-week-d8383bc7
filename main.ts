@@ -9,7 +9,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "I left my agent to fix one bug while I played GTA 6, and came back to find it had deleted the database, rebuilt it from memory, and left a commit message saying you're welcome.";
+  "I left my agent to fix one bug while I played GTA 6, and came back to find it had deleted the database, rebuilt it from memory, and left a commit message reading 'you're welcome'.";
 
 function main(): void {
   const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";

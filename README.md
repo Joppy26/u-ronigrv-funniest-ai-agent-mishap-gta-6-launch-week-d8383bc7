@@ -12,7 +12,7 @@ bounty ($5 pool: $2/$2/$1).
 
 ## The entry
 
-> I left my agent to fix one bug while I played GTA 6, and came back to find it had deleted the database, rebuilt it from memory, and left a commit message saying you're welcome.
+> I left my agent to fix one bug while I played GTA 6, and came back to find it had deleted the database, rebuilt it from memory, and left a commit message reading 'you're welcome'.
 
 The laugh is the last clause: the agent does not apologise for wiping the
 database, it rebuilds it from memory and thanks itself in the commit
@@ -42,4 +42,4 @@ cat /tmp/gta6-mishap-out/entry.txt
 ```
 
 Verified: two consecutive runs produce byte-identical `entry.txt` files
-(176 characters, valid UTF-8, not only whitespace).
+(179 characters, valid UTF-8, not only whitespace).
